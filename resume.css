@@ -15,6 +15,7 @@ body {
   min-height: 100vh;
 }
 
+h3,
 h4,
 h5,
 h6,
@@ -25,9 +26,8 @@ p {
 #resume-body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 1000px;
+  width: 850px;
+  height: 1150px;
   margin: auto;
   padding: 20px;
   border: 1px solid var(--secondary-color);
@@ -120,7 +120,7 @@ p {
 }
 
 #telekinesis {
-  width: 76%;
+  width: 55%;
   background-color: yellow;
 }
 
@@ -146,10 +146,10 @@ p {
 
 #lightsaber {
   width: 35%;
-  background-color: red;
+  background-color: purple;
 }
 
 #excel {
   width: 95%;
-  background-color: purple;
+  background-color: red;
 }
